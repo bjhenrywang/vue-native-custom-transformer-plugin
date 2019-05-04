@@ -87,7 +87,7 @@ function loadConfig() {
 
 function initializePlugins() {
   if (registeredPlugins.initialized) {
-    console.error('plugins are already initialized.');
+    //console.error('plugins are already initialized.');
     return;
   }
   registeredPlugins.initialized = true;
